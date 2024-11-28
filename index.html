@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Classificador herói - DIO</title>
+</head>
+
+    
+<body>
+    <div class="classeHeroi">
+        <h1 class="titulo">Venha ver sua classificação herói <br> e de seus amigos </h1>
+        <form id="formHeroi" action="" method="post">
+            <div class="container">
+                <h3 class="EntradaDados">Digite os nomes e XPs dos heróis<h3></h3>
+                <div class="heroi"> 
+                    <input type="text" id="nomePriHeroi" placeholder="Nome do Herói" required> 
+                    <input type="number" id="xpPriHeroi" placeholder="XP do Herói" required> 
+                </div>
+                <div class="heroi"> 
+                    <input type="text" id="nomeSegHeroi" placeholder="Nome do Herói" required>
+                    <input type="number" id="xpSegHeroi" placeholder="XP do Herói" required> 
+                </div>
+                <div class="heroi"> 
+                    <input type="text" id="nomeTerHeroi" placeholder="Nome do Herói" required>
+                    <input type="number" id="xpTerHeroi" placeholder="XP do Herói" required> 
+                </div>
+            
+                <button type="button" onclick="calculadoraXp()">Veja as classes</button>
+            </div>
+        </form>
+        <p id="resultados">
+    </div>
+    
+    <script src="./JS/index.js"></script>   
+</body>
+
+</html>
